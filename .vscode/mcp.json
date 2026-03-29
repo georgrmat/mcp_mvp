@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "mcp-mvp": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "src/mcp_mvp/server.py"],
+      "env": {
+        "PG_HOST": "aws-1-eu-west-1.pooler.supabase.com",
+        "PG_PORT": "5432",
+        "PG_DBNAME": "postgres",
+        "PG_USER": "postgres.uvmxmxgczadlhaanscjq",
+        "PG_PASSWORD": "T3std@tabase.12345"
+      }
+    }
+  }
+}
